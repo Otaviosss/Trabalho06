@@ -6,9 +6,9 @@ export default props => {
 
     return(
         <div>
-            <FamiliaMembro nome="Felipe" sobrenome="Berlotti" />
-            <FamiliaMembro nome="Adele" sobrenome="Berlotti" />
-            <FamiliaMembro nome="Fernanda" sobrenome={props.sobrenome} />
+            <FamiliaMembro nome="Otávio" sobrenome="Santana" />
+            <FamiliaMembro nome="Vinicius" sobrenome="Santana" />
+            <FamiliaMembro nome="Jorjão" sobrenome={props.sobrenome} />
             <FamiliaMembro nome="Luis Carlos" sobrenome={props.sobrenome} />
         </div>
     )
