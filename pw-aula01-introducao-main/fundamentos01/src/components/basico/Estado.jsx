@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default props => {
     const [curso, setCurso] = useState('Desenvolvimento de Sistemas')
-    const [aluno, setAluno] = useState('Felipe da Cruz Berlotti')
+    const [aluno, setAluno] = useState('Otávio Simões Santana')
 
     return(
         <div>
